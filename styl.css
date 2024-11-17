@@ -1,0 +1,20 @@
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+
+    object-fit: cover;
+}
+
+.carousel-item img{
+    height: 100vh;
+ }
